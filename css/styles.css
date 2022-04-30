@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-family: Calibri;
+
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body{
+    width: max(100%, 280px);
+    background-color: #1B191D;
+}
+
+
+.bg-custom {
+    background-color: rgb(20, 21, 26);
+}
+
+.bg-footer{
+    background-color: #57B6FF;
+}
+
+.projects-section {
+    background-color: #1B191D;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.principal{
+    background-color: beige;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Mayor a 990 */
+@media (min-width: 990px) {
+
+    .navbar-nav a{
+        font-size: 25px;
+        color: #57B6FF !important;
+    }
+
+    .navbar{
+        background-color: #C3EE65 !important;
+        height: 10vh;
+    }
+
+    .principal{
+        background-color: beige;
+        width: 100vw;
+        height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parte1{
+        width: 65vw;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parte2{
+        background-image: url('../img/BONOS.jpg');
+        background-size: cover;
+        width: 35vw;
+        height: 100%;
+        float:right;
+    }
+
+    .parte1 div {
+        width: 50%;
+    }
+
+
+    .bg-footer{
+        color: #ffffff;
+    }
+
+    .parte1 h1{
+        font-size: 5vh;
+        max-width: 19vw;
+        color: #565656;
+        text-align: center;
+    }
+
+
+    .parte1 p {
+        font-size: max(2.7vh, 25px) !important;
+        color: #707070;
+        text-align: justify;
+    }
+
+
+
+
+}
+
+
+
+/* Menor a 990 */
+@media (max-width: 990px) {
+
+
+    .navbar-nav a{
+        font-size: 25px;
+        color: #57B6FF !important;
+    }
+
+    .navbar{
+        background-color: #C3EE65 !important;
+        height: 10vh;
+    }
+
+    .principal{
+        background-color: beige;
+        min-width: 100vw;
+        min-height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parte1{
+        width: 80%;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20vh;
+        padding-bottom: 5vh;
+    }
+/*    .parte2{
+        background-image: url('../img/BONOS.jpg');
+        background-size: cover;
+        width: 35vw;
+        height: 100%;
+        float:right;
+    }*/
+
+/*    .parte1 div {
+        width: 50%;
+    }*/
+
+
+    .bg-footer{
+        color: #ffffff;
+    }
+
+    .parte1 h1{
+        font-size: 5vh;
+        max-width: 19vw;
+        color: #565656;
+        text-align: center;
+    }
+
+
+    .parte1 p {
+        font-size: max(2.7vh, 25px) !important;
+        color: #707070;
+        text-align: justify;
+    }
+
+
+
+}
+
+.card-body .text-black-50{
+    font-size: max(1.5vw,20px) !important;
+}
+
+.sec-nosotros h2 a{
+    font-size: max(2.5vw,35px) !important;
+}
+
+.informacion label{
+    font-size: max(1.5vw,20px) !important;;
+}
+
+.sec1 p{
+    font-size: max(1.5vw,25px) !important;;
+}
+
+
+.logors {
+    width: 40px !important;
+    margin-right: 10px !important;
+}
+
